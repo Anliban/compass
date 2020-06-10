@@ -40,11 +40,11 @@
     Background -> 백그라운드 서비스는 이제 사용할 일이 없습니다. 앱을 종료했을 시, 종료될 뿐더러, Oreo(26) 이상에서는 DozeMode의 도입으로 인해 1분 이상 실행되면 강제종료됩니다.
 
     Bind -> 위의 두 Service 실행 방식은 단순한 실행이며, 서비스가 자신이 서비스를 종료할 수 있었습니다. 하지만 바인드 서비스는 다른 클라이언트 (앱컴포넌트)로 하여금 서비스가 바인딩된 형태이며, 바인딩 상태일 경우, 클라이언트와 지속적으로 상호작용할 수 있습니다. 또한 서비스는 자신 스스로 종료할 수 없으며, 클라이언트가 바인딩을 해제하면 비로소 종료됩니다.
-<br>
-<div style="text-align: center;">
-    <img src="../image/BackgroundTask_BindService.png" width="300">
-    <p>[그림 1] 일반 서비스와 바인드 서비스의 생명주기</p>
-</div>
+
+<p align="center">
+    <img src="../../image/BackgroundTask_BindService.png" width="300">
+</p>
+<p  align="center">[그림 1] 일반 서비스와 바인드 서비스의 생명주기</p>
 
 ## JobScheduler
     JobScheduler는 Lollipop(21)부터 지원되며, 다양한 Job들의 스케쥴링을 지원하는 API입니다. 인스턴스화는 필요없으며 
@@ -73,10 +73,12 @@
 
 ### [구글이 말하는 백그라운드 작업할 때 언제 뭘 써야하는가](https://developer.android.com/guide/background?hl=ko)
 <br>
-<div style="text-align: center;">
-    <img src="../image/BackgroundTask_OverView.png">
-    <p>[그림 2] 한판으로 정리하는 백그라운드 요소</p>
-</div>
+<p align="center">
+    <img src="../../image/BackgroundTask_OverView.png">
+</p>
+<p align="center"> 
+    [그림 2] 한판으로 정리하는 백그라운드 요소
+</p>
 
 ## 그냥 WorkManager 쓰세요!
 WorkManager는 가장 고수준이며, 버전이슈를 내부적으로 처리해주고, 언제든 실행을 보장합니다 🥳
