@@ -1,7 +1,7 @@
 # Compass ; 험난한 안드로이드를 항해할 때 필요한 나침반
 
 <div style="text-align: center;">
-    <img src="./image/Compass.png" width="500">
+    <img src="./image/compass.png" width="500">
     <p>험난한 안드로이드 항해에서 길을 잃으셨나요?</p>
     <p>이제는 Compass가 도와드릴게요</p>
 </div>
